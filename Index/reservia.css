@@ -98,11 +98,18 @@ input[type=submit]
     font-size: 1.1em;
 }
 
+.filtrestitre
+{
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
 .filtre
 {
     display: flex;
-    margin: 30px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .filtre img
@@ -116,13 +123,16 @@ input[type=submit]
 {
     display: flex;
     border-radius: 30px 30px 30px 30px;
-    border: solid black;
+    border: solid #f2f2f2 2px;
     border-left: 0px;
+    width: 15vmax;
+    margin-left: 25px;
 }
 
 .filtres2
 {
-    margin: 20px 5px 0px 5px;
+    margin: 18px 0px 0px 10px;
+    font-size: 20px;
 }
 .map-marker
 {
@@ -133,5 +143,17 @@ input[type=submit]
     display: flex;
     justify-content: center;
     border-radius: 15px 0px 0px 15px;
-
+}
+.info
+{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.info img
+{
+    border-radius: 30px 30px 30px 30px;
+    border: solid #f2f2f2 1.5px;
+    padding: 7px;
+    margin-top: 3px;
 }
