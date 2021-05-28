@@ -8,10 +8,12 @@
 {
     font-family: Raleway;
     list-style: none;
-    margin-left: 0.5%;
-    padding-left: 0;
 }
 
+body
+{
+    margin: 3%;
+}
 header
 {
     display: flex;
@@ -23,13 +25,13 @@ h1
 {
     font-weight: bolder;
     font-size: 23px;
-    margin: 5px 0px 5px 20px;
+    margin: 5px 0px 5px 0px;
 }
 
 h2
 {
     font-weight: bolder;
-    margin: 5px 0px 0px 20px;
+    margin: 5px 0px 0px 15px;
     font-size: 1em;
     padding-bottom: 0px;
 }
@@ -61,7 +63,7 @@ a:hover
 
 p
 {
-    margin: 5px 0px 10px 20px;
+    margin: 5px 0px 10px 0px;
 }
 
 .formulaire
@@ -87,8 +89,10 @@ p
 
 input[type=text]
 {
-    border-top:solid #f2f2f2;
-    border-bottom: solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: none;
+    border-left: none;
     padding: 0em;
     margin: 0em;
     font-weight: bolder;
@@ -100,6 +104,7 @@ input[type=submit]
     width: 150px;
     height: 54.8px;
     border-radius: 0px 15px 15px 0px;
+    border: none;
     background-color: #0065FC;
     color: white;
     font-weight: bold;
@@ -108,7 +113,7 @@ input[type=submit]
 
 .filtrestitre
 {
-    padding-top: 8px;
+    padding-top: 14px;
     margin-right: 20px;
 }
 
@@ -120,12 +125,12 @@ input[type=submit]
     font-size: 20px;
 }
 
-.filtre img
+.filtre i
 {
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
-    fill: #0065FC;
+    color: #0065FC;
 }
 
 .filtres1
@@ -163,12 +168,13 @@ input[type=submit]
     margin-bottom: 25px;
 }
 
-.info img
+.info i
 {
     border-radius: 30px 30px 30px 30px;
     border: solid #f2f2f2 1.5px;
-    padding: 7px;
-    margin-top: 3px;
+    margin: 0px 0px 0px 0px;
+    color: #0065FC;
+    width: 15px;
 }
 
 .main 
@@ -180,7 +186,7 @@ input[type=submit]
 {
     background-color: #f2f2f2;
     border-radius: 15px;
-    width: 50%;
+    width: 60%;
     padding-top: 35px;
     padding-left: 20px;
     height: 600px;
@@ -196,7 +202,7 @@ input[type=submit]
     background-color: #f2f2f2;
     border-radius: 15px;
     height: 600px;
-    width: 25%;
+    width: 30%;
     margin-left: 1.5% ;
     padding-top: 35px;
     padding-left: 20px;
@@ -225,15 +231,6 @@ input[type=submit]
     margin-bottom: 0px;
 }
 
-.populaires2
-{
-        background-color: white;
-        width: 85%;
-        height: 150px;
-        margin: 0px 25px 30px 25px;
-        border-radius: 15px 15px 15px 15px;
-}
-
 .etoile
 {
     display: flex;
@@ -246,4 +243,21 @@ input[type=submit]
     margin: 0px;
     padding: 0px;
 
+}
+
+.populaires2
+{
+        display: flex;
+        background-color: white;
+        width: 85%;
+        height: 150px;
+        margin: 0px 25px 30px 25px;
+        border-radius: 15px 15px 15px 15px;
+}
+
+.populaires2 img
+{
+    height: 144px;
+    border-radius: 15px 0px 0px 15px;
+    margin: 3px;
 }
