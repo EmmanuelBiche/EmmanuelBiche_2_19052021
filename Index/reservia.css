@@ -29,7 +29,9 @@ h1
 h2
 {
     font-weight: bolder;
-    margin: 5px 0px 5px 20px;
+    margin: 5px 0px 0px 20px;
+    font-size: 1em;
+    padding-bottom: 0px;
 }
 
 ul
@@ -59,7 +61,7 @@ a:hover
 
 p
 {
-    margin: 10px 0px 10px 20px;
+    margin: 5px 0px 10px 20px;
 }
 
 .formulaire
@@ -178,18 +180,70 @@ input[type=submit]
 {
     background-color: #f2f2f2;
     border-radius: 15px;
-    width: 60%;
+    width: 50%;
     padding-top: 35px;
     padding-left: 20px;
-    height: 500px
+    height: 600px;
+}
+.hebergements2
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .populaires
 {
     background-color: #f2f2f2;
     border-radius: 15px;
+    height: 600px;
     width: 25%;
     margin-left: 1.5% ;
     padding-top: 35px;
     padding-left: 20px;
+}
+
+.hebergement
+{
+        background-color: white;
+        width: 28%;
+        height: 215px;
+        margin: 15px 20px;
+        border-radius: 15px 15px 15px 15px;
+}
+
+.hebergement img
+{
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 3px;
+}
+
+.hebergement p
+{
+    
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.populaires2
+{
+        background-color: white;
+        width: 85%;
+        height: 150px;
+        margin: 0px 25px 30px 25px;
+        border-radius: 15px 15px 15px 15px;
+}
+
+.etoile
+{
+    display: flex;
+    margin: 10px 20px ;
+    width: 120px;
+}
+
+.etoile img
+{
+    margin: 0px;
+    padding: 0px;
+
 }
