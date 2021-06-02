@@ -9,7 +9,10 @@
     font-family: Raleway;
     list-style: none;
 }
-
+html
+{
+    width: 100%;
+}
 body
 {
     margin: 0%;
@@ -68,6 +71,7 @@ li
 a
 {
     text-decoration: none; 
+    color: black;
 }
 
 nav a:hover
@@ -149,14 +153,18 @@ input[type=submit]
     color: #0065FC;
 }
 
-.filtres1
+.filtre a
 {
-    display: flex;
     border-radius: 30px 30px 30px 30px;
     border: solid #f2f2f2 2px;
     border-left: 0px;
     width: 20%;
     margin-left: 25px;
+    text-align: center;
+}
+.filtres1
+{
+    display: flex;
 }
 
 .filtres2
@@ -214,6 +222,7 @@ input[type=submit]
 .hebergements h1
 {
     margin-left: 18px;
+    margin-bottom: 20px;
 }
 
 .hebergements2
@@ -222,6 +231,11 @@ input[type=submit]
     flex-wrap: wrap;
 }
 
+.afficher
+{
+    margin-top: 15px;
+    margin-left: 20px;
+}
 .populaires
 {
     background-color: #f2f2f2;
@@ -231,10 +245,9 @@ input[type=submit]
     margin-left: 1.5% ;
     padding-top: 35px;
 }
-
-.hebergement
+.hebergements2 a
 {
-        background-color: white;
+    background-color: white;
         width: 30%;
         height: 265px;
         margin: 15px;
@@ -259,7 +272,7 @@ input[type=submit]
 .etoile
 {
     display: flex;
-    margin: 10px 20px ;
+    margin: 10px 20px;
     width: 120px;
 }
 
@@ -276,14 +289,13 @@ input[type=submit]
 
 .populaires h1
 {
-    margin-left: 6%;
-    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-bottom: 7%;
 }
 
 .populaires p 
 {
     margin: 5px 0px 0px 15px;
-    margin-bottom: 80px;
 }
 
 .populairestitre
@@ -294,28 +306,43 @@ input[type=submit]
 }
 .populaires i
 {
-    margin-top: 12px;
-    font-size: 18px;
-    
+    font-size: 22px;
+    margin-top: 10px;
 }
 .populaires2
 {
     display: flex;
     background-color: white;
-    width: 90%;
-    height: 170px;
-    margin: 0px 25px 30px 25px;
+    width: 80%;
+    height: 190px;
+    margin: 0px 25px 30px 50px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0 0 0.5em lightgrey
+}
+.populaires a
+{
+    width: 80px;
 }
 
 .populaires2 img
 {
-    width: 164px;
+    width: 182px;
     border-radius: 15px 0px 0px 15px;
     margin: 3px;
 }
 
+.populaires2 i
+{
+    margin-bottom: 15px;
+}
+
+ .populaires3
+{ 
+    width: 38%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .activités
 {
     margin-bottom: 50px;
@@ -336,13 +363,12 @@ input[type=submit]
 
 }
 
-.activités3
+.activités2 a
+
 {
     border-radius: 15px 15px 15px 15px;
     width: 22%;
     box-shadow: 0 0 0.5em lightgrey
-   
-    
 }
 
 .activités3 img
@@ -376,6 +402,14 @@ input[type=submit]
     margin: 20px;  
 }
 
+.activités4 a
+{
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .activités5
 {
     box-shadow: 0 0 0.5em lightgrey;
