@@ -25,6 +25,7 @@ header
     display: flex;
     justify-content: space-between;
     height: 70px;
+    padding-top: 30px;
 }
 
 .corps
@@ -47,15 +48,17 @@ h2
     padding-bottom: 0px;
 }
 
-ul
+nav
 {
+    width: 25%;
     display: flex;
+    justify-content: space-between;
     margin-right: 50px;
     margin-top: 0px;
-    padding-top: 2px;
+    padding-top: 20px;
 }
 
-.inscription a
+.inscription 
 {
     color: #0065FC;
     font-weight: bold;
@@ -162,6 +165,7 @@ input[type=submit]
     margin-left: 25px;
     text-align: center;
 }
+
 .filtres1
 {
     display: flex;
@@ -319,9 +323,10 @@ input[type=submit]
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0 0 0.5em lightgrey
 }
-.populaires a
+
+.populaires1 a
 {
-    width: 80px;
+    width: 80%;
 }
 
 .populaires2 img

@@ -1,1 +1,27 @@
+body
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header img
+{
+    width:150%;
+}
 
+header
+{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+nav
+{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+header a
+{
+    align-self: flex-end;
+}
