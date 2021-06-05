@@ -1,7 +1,11 @@
 body
 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0%;
+}
+.corps
+{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
 }
 header img
 {
@@ -24,4 +28,65 @@ nav
 header a
 {
     align-self: flex-end;
+}
+
+.filtre
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.filtrebis
+{
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.economique
+{
+    width: 50%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+}
+.familial
+{
+    width: 40%;
+    margin-bottom: 15px;
+}
+.romantique
+{
+    width: 48%;
+    margin-bottom: 15px;
+}
+.animaux
+{
+    width: 65%;
+}
+.filtre a
+{
+    margin-left: 0;
+}
+.filtres2
+{
+    margin: auto;
+    padding: 0%;
+    font-size: 18px;
+}
+
+.main 
+{
+    flex-direction: column-reverse;
+   
+}
+
+.hebergements
+{
+    width: 100%;
+}
+
+.populaires
+{
+    width: 100%;
+    margin: 0%;
+    border-radius: 0%;
 }
