@@ -1,3 +1,8 @@
+html
+{
+    width: 100%;
+}
+
 body
 {
     margin: 0%;
@@ -16,13 +21,27 @@ header
 {
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 nav
 {
-    flex-direction: row-reverse;
     justify-content: flex-end;
+}
+
+.inscription
+{
+    position: relative;
+    top: 8px ;
+
+}
+.act
+{
+    display: none;
+}
+.heb
+{
+    display: none;
 }
 
 header a
@@ -30,17 +49,54 @@ header a
     align-self: flex-end;
 }
 
+.actheb
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.act1 :hover
+{
+    color:#0065FC;
+    font-weight: bold;
+    border-bottom: solid 2px #0065FC;
+}
+
+.act1
+{
+    display: initial;
+    width: 50%;
+    text-align: center;
+}
+
+.heb1
+{
+    display: initial;
+    width: 50%;
+    text-align: center;
+
+}
+.recherche
+{
+    margin: 5%;
+}
+
+.map-marker
+{
+min-width: 50px;
+}
 .filtre
 {
     flex-direction: column;
     width: 100%;
+    margin: 5%;
 }
 
 .filtrebis
 {
-    width: 100%;
-    flex-wrap: wrap;
-    
+    width: 95%;
+    flex-wrap: wrap;  
 }
 .economique
 {
@@ -76,12 +132,15 @@ header a
 .main 
 {
     flex-direction: column-reverse;
+    margin-bottom: 0%;
    
 }
 
 .hebergements
 {
     width: 100%;
+    background-color: white;
+    height: 2000px;
 }
 
 .populaires
@@ -89,4 +148,71 @@ header a
     width: 100%;
     margin: 0%;
     border-radius: 0%;
+    padding-bottom: 25px;
+}
+
+.hebergements2
+
+{
+    margin: 0px;
+    width: 100%;
+}
+
+.hebergements2 a
+{
+    width: 80%;
+    height: 280px;
+    margin-left: 5%;
+}
+
+.activités
+{
+  margin: 10%;
+  margin-top: 0%;
+}
+
+.activités2
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.activités2 a
+{
+    width: 100%;
+}
+
+.activités a
+{
+    width: 100%;
+    margin-bottom: 40px ;
+}
+
+.activités4
+{
+    width: 100%;
+}
+
+.vieuxportsmall
+{
+    display: initial;
+}
+
+.vieuxport
+{
+    display: none;
+}
+
+footer
+{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+
+.footer1
+{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
 }

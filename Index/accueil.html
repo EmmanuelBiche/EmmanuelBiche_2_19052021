@@ -8,7 +8,7 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="reservia.css">
-    <link rel="stylesheet" media="screen and (max-width: 800px)" href="reservia.small.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="reservia.small.css">
 </head>
 
 <body>
@@ -17,55 +17,60 @@
             <img src="../Logo/Reservia.svg" alt="Logo Reservia" title="Logo Reservia" />
         </div>
         <nav>
-                <a href="">Hébergements</a>
-                <a href="">Activités</a>
-                <div> <a href="" class="inscription">S'incrire</a> </div>
+            <div><a href="" class="heb">Hébergements</a></div>
+            <div><a href="" class="act">Activités</a></div>
+            <div><a href="" class="inscription">S'incrire</a></div>
         </nav>
     </header>
-
+    <div class="actheb">  
+        <div class="heb1"><a href="" >Hébergements</a></div>
+        <div class="act1"><a href="" >Activités</a></div>
+    </div>
     <div class="corps">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <div class="recherche">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
-        <p>En plein centre ville ou en pleine nature</p>
+            <p>En plein centre ville ou en pleine nature</p>
 
-        <form method="POST" class="formulaireinput" action="">
-            <div class="map-marker">
-                <img src="../Logo/map-marker-alt-solid.svg" alt="logo map-marker" title="logo map-marker" width="15px">
-            </div>
-            <label for="destination"></label>
-            <input type="text" name="destination" id="destination" maxlenght="20" size="25">
-            <input type="submit" value="Rechercher" size="150px" alt="Rechercher">
-        </form>
-
+            <form method="POST" class="formulaireinput" action="">
+                <div class="map-marker">
+                    <img src="../Logo/map-marker-alt-solid.svg" alt="logo map-marker" title="logo map-marker"
+                        width="15px">
+                </div>
+                <label for="destination"></label>
+                <input type="text" name="destination" id="destination" maxlenght="20" size="25">
+                <input type="submit" value="Rechercher" size="150px" alt="Rechercher">
+            </form>
+        </div>
         <div class="filtre">
             <div>
                 <p class="filtrestitre">Filtres</p>
             </div>
             <div class="filtrebis">
-            <a href="" class="economique">
-                <div class="filtres1">
-                <i class="fas fa-money-bill-wave-alt"></i>
-                <p class="filtres2 economique">Economique</p>
-                </div>
-            </a>
-            <a href="" class="familial">
-                <div class="filtres1">
-                <i class="fas fa-child"></i>
-                <p class="filtres2 familial">Familial</p>
-                </div>
-            </a>
-            <a href="" class="romantique">
-                <div class="filtres1">
-                <i class="fas fa-heart"></i>
-                <p class="filtres2 romantique">Romantique</p>
-                </div>
-            </a>
-            <a href="" class="animaux">
-                <div class="filtres1">
-                <i class="fas fa-dog"></i>
-                <p class="filtres2 animaux">Animaux autorisés</p>
-                </div>
-            </a>
+                <a href="" class="economique">
+                    <div class="filtres1">
+                        <i class="fas fa-money-bill-wave-alt"></i>
+                        <p class="filtres2 economique">Economique</p>
+                    </div>
+                </a>
+                <a href="" class="familial">
+                    <div class="filtres1">
+                        <i class="fas fa-child logofamilial"></i>
+                        <p class="filtres2 familial">Familial</p>
+                    </div>
+                </a>
+                <a href="" class="romantique">
+                    <div class="filtres1">
+                        <i class="fas fa-heart"></i>
+                        <p class="filtres2 romantique">Romantique</p>
+                    </div>
+                </a>
+                <a href="" class="animaux">
+                    <div class="filtres1">
+                        <i class="fas fa-dog"></i>
+                        <p class="filtres2 animaux">Animaux autorisés</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="info">
@@ -160,9 +165,11 @@
                             </p>
                         </div>
                     </a>
-                    
+
                 </div>
-                <a href="" title="afficher plus"><h2 class="afficher">Afficher plus</h2></a>
+                <a href="" title="afficher plus">
+                    <h2 class="afficher">Afficher plus</h2>
+                </a>
             </article>
             <aside class="populaires">
                 <div class="populairestitre">
@@ -178,7 +185,7 @@
                                     <h2>Hôtel le soleil du matin</h2>
                                     <p>Nuit à partir de 128<strong>€</strong></p>
                                 </div>
-                                 <div>
+                                <div>
                                     <p class="etoile">
                                         <i class="fas fa-star blue "></i>
                                         <i class="fas fa-star blue"></i>
@@ -192,7 +199,7 @@
                     </a>
                     <a href="" title="au couer de l'eau">
                         <div class="populaires2">
-                        <img src="../Photo/aucoeurdel'eau.jpg" alt="Au coeur de l'eau">
+                            <img src="../Photo/aucoeurdel'eau.jpg" alt="Au coeur de l'eau">
                             <div class="populaires3">
                                 <div>
                                     <h2>Au coeur de l'eau Chambres d'hôtes</h2>
@@ -238,39 +245,41 @@
             </div>
             <div class="activités2">
                 <a href="" title="Vieux port">
-                    <div class="activités3"><img src="../Photo/vieuxport.jpg" alt="vieux.port">
+                    <div class="activités3">
+                        <img src="../Photo/vieuxport.jpg" alt="vieux.port" class="vieuxport">
+                        <img src="../Photo/vieuxportsmall.jpg" alt="vieux.portsmall" class="vieuxportsmall">
                         <h2>Vieux port</h2>
                     </div>
                 </a>
                 <div class="activités4">
                     <a href="" title="Fort de Pomègues">
-                    <div class="activités5"> 
-                        <img src="../Photo/Fort de Pomègues.jpg" alt="Fort de ¨Pomègues">
-                        <h2>Fort de Pomègues</h2>
-                    </div>
+                        <div class="activités6">
+                            <img src="../Photo/Fort de Pomègues.jpg" alt="Fort de ¨Pomègues">
+                            <h2>Fort de Pomègues</h2>
+                        </div>
                     </a>
                     <a href="" title="Ile du Frioul">
-                        <div class="activités5"> 
+                        <div class="activités5">
                             <img src="../Photo/Ile du Frioul.jpg" alt="ile du frioul">
                             <h2>Îles du Frioul</h2>
                         </div>
                     </a>
                 </div>
                 <a href="" title="Par National des Calanques">
-                    <div class="activités3"> 
+                    <div class="activités3">
                         <img src="../Photo/calanques.jpg" alt="Calanques">
                         <h2>Parc National des Calanques</h2>
                     </div>
                 </a>
                 <div class="activités4">
                     <a href="" title="Notre dame de la garde">
-                        <div class="activités5"> 
+                        <div class="activités5">
                             <img src="../Photo/Notre dame de la garde.jpg" alt="notre dame de la garde">
                             <h2>Notre-Dame-de-la-Garde</h2>
-                         </div>
+                        </div>
                     </a>
                     <a href="" title="Parc Longchamp">
-                        <div class="activités5"> 
+                        <div class="activités5">
                             <img src="../Photo/Parc Longchamp.jpg" alt="parc.longchamp">
                             <h2>Parc Longchamp</h2>
                         </div>
@@ -280,21 +289,37 @@
         </section>
     </div>
     <footer>
-        <div>
-            <h2>A Propos</h2>
-            <a href=""><p>Fontionnement du site</p></a>
-            <a href=""><p>Conditions générales de vente</p></a>
-            <a href=""><p>Données et confidentialités</p></a>
-        </div>
-        <div>
-            <h2>Nos hébergements</h2>
-            <a href=""><p>Charte qualité</p></a>
-            <a href=""><p>Soumettre votre hôtel</p></a>
-        </div>
-        <div>
-            <h2>Assistance</h2></a>
-            <a href=""><p>Centre d'aide</p></a>
-            <a href=""><p>Nous contacter</p></a>
+        <div class="footer1">
+            <div>
+                <h2>A Propos</h2>
+                <a href="">
+                    <p>Fontionnement du site</p>
+                </a>
+                <a href="">
+                    <p>Conditions générales de vente</p>
+                </a>
+                <a href="">
+                    <p>Données et confidentialités</p>
+                </a>
+            </div>
+            <div>
+                <h2>Nos hébergements</h2>
+                <a href="">
+                    <p>Charte qualité</p>
+                </a>
+                <a href="">
+                    <p>Soumettre votre hôtel</p>
+                </a>
+            </div>
+            <div>
+                <h2>Assistance</h2></a>
+                <a href="">
+                    <p>Centre d'aide</p>
+                </a>
+                <a href="">
+                    <p>Nous contacter</p>
+                </a>
+            </div>
         </div>
     </footer>
 </body>
