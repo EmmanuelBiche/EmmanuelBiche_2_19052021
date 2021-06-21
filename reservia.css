@@ -186,6 +186,11 @@ input[type=text]
     width: 95%;
 }
 
+.filtrebis p:hover
+{
+    color: #0065FC;
+}
+
 .filtre i
 {
     padding: 18px;
@@ -333,7 +338,7 @@ input[type=text]
     height: 175px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/aubdelacan.jpg);
+    background-image: url(Photook/heb/aubdelacan.jpg);
     background-size: 370px;
     background-position: 70%;
 }
@@ -344,7 +349,7 @@ input[type=text]
     height: 175px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hduport.jpg);
+    background-image: url(Photook/heb/hduport.jpg);
     background-size: 370px;
     background-position: 70%;
 }
@@ -355,7 +360,7 @@ input[type=text]
     height: 175px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hlesmouettes.jpg);
+    background-image: url(Photook/heb/hlesmouettes.jpg);
     background-size: 370px;
     background-position: 50% 50%;
 }
@@ -366,7 +371,7 @@ input[type=text]
     height: 175px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hdelamer.jpg);
+    background-image: url(Photook/heb/hdelamer.jpg);
     background-size: 370px;
     background-position: 45% 50%;
 }
@@ -377,7 +382,7 @@ input[type=text]
     height: 175px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/aublepanier.jpg);
+    background-image: url(Photook/heb/aublepanier.jpg);
     background-size: 370px;
     background-position: 70% 50%;
 }
@@ -388,7 +393,7 @@ input[type=text]
     height: 175px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hchezamina.jpg);
+    background-image: url(Photook/heb/hchezamina.jpg);
     background-size: 355px;
     background-position: 45% 50%;
 }
@@ -461,7 +466,7 @@ input[type=text]
     width: 182px;
     border-radius: 15px 0px 0px 15px;
     margin: 4px;
-    background-image: url(../Photo/hotel.lesoleildumatin.jpg);
+    background-image: url(Photo/hotel.lesoleildumatin.jpg);
     background-size: 200px;
     background-position: 50% 50%;
 }
@@ -471,7 +476,7 @@ input[type=text]
     width: 182px;
     border-radius: 15px 0px 0px 15px;
     margin: 4px;
-    background-image: url(../Photook/heb/coeurdeleau.jpg);
+    background-image: url(Photook/heb/coeurdeleau.jpg);
     background-size: 270px;
     background-position: 50% 40%;
 }
@@ -481,7 +486,7 @@ input[type=text]
     width: 182px;
     border-radius: 15px 0px 0px 15px;
     margin: 4px;
-    background-image: url(../Photo/hotel.toutbleuetblanc.jpg);
+    background-image: url(Photo/hotel.toutbleuetblanc.jpg);
     background-size: 200px;
     background-position: 70% 50%;
 }
@@ -579,7 +584,7 @@ input[type=text]
     width: 100%;
     height: 500px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/vieuxport.jpg);
+    background-image: url(Photook/act/vieuxport.jpg);
     background-size: 860px;
     background-position: 50% 0%;
 }
@@ -589,7 +594,7 @@ input[type=text]
     width: 100%;
     height: 225px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/fortdepom.jpg);
+    background-image: url(Photook/act/fortdepom.jpg);
     background-size: 400px;
     background-position: 50% 45%;
 }
@@ -600,7 +605,7 @@ input[type=text]
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/ilesduf.jpg);
+    background-image: url(Photook/act/ilesduf.jpg);
     background-size: 400px;
     background-position: 70% 15%;
 }
@@ -610,7 +615,7 @@ input[type=text]
     width: 100%;
     height: 500px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/pndescal.jpg);
+    background-image: url(Photook/act/pndescal.jpg);
     background-size: 870px;
     background-position: 50% 10%;
 }
@@ -620,7 +625,7 @@ input[type=text]
     width: 100%;
     height: 175px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/nddelagarde.jpg);
+    background-image: url(Photook/act/nddelagarde.jpg);
     background-size: 400px;
     background-position: 70% 0%;
 }
@@ -630,7 +635,7 @@ input[type=text]
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/parclongc.jpg);
+    background-image: url(Photook/act/parclongc.jpg);
     background-size: 400px;
     background-position: 70% 15%;
 }
