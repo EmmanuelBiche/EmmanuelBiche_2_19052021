@@ -290,16 +290,15 @@ input[type=text]
     margin-bottom: 20px;
 }
 
-.hebergements2
+.hebergements3
 {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .afficher
 {
-    margin-top: 15px;
-    margin-left: 20px;
+    margin: 15px 15px;
+    
 }
 .populaires
 {
