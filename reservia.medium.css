@@ -1,0 +1,69 @@
+h2
+{
+    font-size: 1em;
+}
+.filtrebis
+{
+    width: 100%;
+    flex-wrap: wrap;  
+    font-size: 20px;
+}
+.hebergements2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.hebergements2
+{
+    margin-bottom: 20px;
+}
+.hebergements3
+{
+    flex-direction: column;
+    width: 40%;
+}
+
+.hebergements3 a
+{
+    width: 100%;
+    margin: 0mm;
+    margin-bottom: 20px;
+}
+.populaires2
+{
+    height: 270px;
+    flex-direction: column;
+}
+.populaires3 
+{
+    width: 95%;
+}
+.hotellesoleildumatin
+{
+    height: 450px;
+    width: 98%;  
+    border-radius: 15px 15px 0px 0px;
+    background-size: 350px;
+}
+
+.aucoeurdeleau
+{
+    height: 450px;
+    width: 98%;  
+    border-radius: 15px 15px 0px 0px;
+    background-size: 350px;
+}
+
+.toutbleuetblanc
+{
+    height: 450px;
+    width: 98%;  
+    border-radius: 15px 15px 0px 0px;
+    background-size: 350px;
+}
+
+.afficher
+{
+    font-size: 1.2em;
+}

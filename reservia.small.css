@@ -95,27 +95,19 @@ header a
     margin: 5%;
 }
 
-.rechercher
+.rechercher span
 {
     display: none;
 }
-.loupe
+
+.rechercher i
 {
-    display: initial;
-    width: 60px;
-    height: 54.8px;
-    border-radius: 15px 15px 15px 15px;
-    border: none;
-    background-color: #0065FC;
-    color: white;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-left: -20px;
+    display: block;
 }
 
 .map-marker
 {
-min-width: 50px;
+    min-width: 50px;
 }
 .filtre
 {
@@ -128,6 +120,12 @@ min-width: 50px;
 {
     width: 95%;
     flex-wrap: wrap;  
+    font-size: 20px;
+}
+
+.filtres1 p
+{
+    font-size: 1.1em;
 }
 .economique
 {
@@ -209,15 +207,19 @@ min-width: 50px;
     margin-left: 0%;
 }
 
+.hebergements3
+{
+    flex-direction: column;
+}
 .aubergedelacannebiere
 {
     width: 98%;
     height: 150px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/aubdelacan.jpg);
+    background-image: url(Photook/heb/aubdelacan.jpg);
     background-size: 100%;
-    background-position: 70%;
+    background-position: 70% 5%;
 }
 
 .hotelduport
@@ -226,9 +228,9 @@ min-width: 50px;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hduport.jpg);
+    background-image: url(Photook/heb/hduport.jpg);
     background-size: 100%;
-    background-position: 70% 50%;
+    background-position: 70% 65%;
 }
 
 .hotellesmouettes
@@ -237,9 +239,9 @@ min-width: 50px;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hlesmouettes.jpg);
+    background-image: url(Photook/heb/hlesmouettes.jpg);
     background-size: 100%;
-    background-position: 70% 50%;
+    background-position: 70% 80%;
 }
 
 .hoteldelamer
@@ -248,9 +250,9 @@ min-width: 50px;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hdelamer.jpg);
+    background-image: url(Photook/heb/hdelamer.jpg);
     background-size: 100%;
-    background-position: 45% 50%;
+    background-position: 45% 60%;
 }
 
 .aubergelepanier
@@ -259,7 +261,7 @@ min-width: 50px;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/aublepanier.jpg);
+    background-image: url(Photook/heb/aublepanier.jpg);
     background-size: 100%;
     background-position: 70% 50%;
 }
@@ -270,9 +272,9 @@ min-width: 50px;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
     margin: 4px;
-    background-image: url(../Photook/heb/hchezamina.jpg);
+    background-image: url(Photook/heb/hchezamina.jpg);
     background-size: 100%;
-    background-position: 45% 50%;
+    background-position: 45% 60%;
 }
 .activités
 {
@@ -306,9 +308,9 @@ min-width: 50px;
     width: 100%;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/vieuxport.jpg);
+    background-image: url(Photook/act/vieuxport.jpg);
     background-size: 100%;
-    background-position: 50% 15%;
+    background-position: 50% 35%;
 }
 
 .fortdepomegues
@@ -316,9 +318,9 @@ min-width: 50px;
     width: 100%;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/fortdepom.jpg);
+    background-image: url(Photook/act/fortdepom.jpg);
     background-size: 100%;
-    background-position: 50% 45%;
+    background-position: 50% 50%;
 }
 
 
@@ -327,7 +329,7 @@ min-width: 50px;
     width: 100%;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/ilesduf.jpg);
+    background-image: url(Photook/act/ilesduf.jpg);
     background-size: 100%;
     background-position: 70% 30%;
 }
@@ -337,9 +339,9 @@ min-width: 50px;
     width: 100%;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/pndescal.jpg);
+    background-image: url(Photook/act/pndescal.jpg);
     background-size: 100%;
-    background-position: 50% 30%;
+    background-position: 50% 40%;
 }
 
 .nddelagarde
@@ -347,7 +349,7 @@ min-width: 50px;
     width: 100%;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/nddelagarde.jpg);
+    background-image: url(Photook/act/nddelagarde.jpg);
     background-size: 100%;
     background-position: 90% 25%;
 }
@@ -357,7 +359,7 @@ min-width: 50px;
     width: 100%;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
-    background-image: url(../Photook/act/parclongc.jpg);
+    background-image: url(Photook/act/parclongc.jpg);
     background-size: 100%;
     background-position: 70% 35%;
 }

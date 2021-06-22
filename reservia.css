@@ -149,7 +149,6 @@ input[type=text]
 
 .rechercher
 {
-    width: 150px;
     height: 54.8px;
     border-radius: 0px 15px 15px 0px;
     border: none;
@@ -157,10 +156,13 @@ input[type=text]
     color: white;
     font-weight: bold;
     font-size: 1.1em;
+    padding: 15px;
+    cursor: pointer;
 }
-.loupe
+.rechercher i
 {
     display: none;
+    color: #f2f2f2;
 }
 .filtrestitre
 {
@@ -217,31 +219,20 @@ input[type=text]
 
 .filtres2
 {
-    margin: 0px 0px 0px 0px;
-    font-size: 20px;
+    margin: 0px 15px 0px 10px;
+    font-size: 1.1em;
     text-align: center;
     vertical-align: middle;
     padding-top: 15px;
 }
-.economique
+
+.animaux
 {
-    width: 65%;
-}
-.familial
-{
-    width: 60%;
+    min-width: 280px;
 }
 .logofamilial 
 {
     width: 10%;
-}
-.romantique
-{
-    width: 75%;
-}
-.animaux
-{
-    width: 90%;
 }
 
 .map-marker
@@ -290,7 +281,7 @@ input[type=text]
     width: 65%;
     padding-top: 35px;
     padding-left: 20px;
-    height: 720px;
+    /* height: 720px; */
 }
 
 .hebergements h1
@@ -299,22 +290,21 @@ input[type=text]
     margin-bottom: 20px;
 }
 
-.hebergements2
+.hebergements3
 {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .afficher
 {
-    margin-top: 15px;
-    margin-left: 20px;
+    margin: 15px 15px;
+    
 }
 .populaires
 {
     background-color: #f2f2f2;
     border-radius: 15px;
-    height: 720px;
+    /* height: 720px; */
     width: 30%;
     margin-left: 1.5% ;
     padding-top: 35px;
@@ -409,7 +399,7 @@ input[type=text]
 {
     display: flex;
     margin: 10px 20px;
-    width: 120px;
+    font-size: 18px;
 }
 
 .blue
@@ -440,10 +430,11 @@ input[type=text]
     justify-content: space-between;
     margin-right: 30px;
 }
-.populaires i
+.line
 {
     font-size: 22px;
     margin-top: 10px;
+    margin-right: 20px;
 }
 .populaires1
 {
@@ -466,8 +457,8 @@ input[type=text]
     width: 182px;
     border-radius: 15px 0px 0px 15px;
     margin: 4px;
-    background-image: url(Photo/hotel.lesoleildumatin.jpg);
-    background-size: 200px;
+    background-image: url(Photook/heb/soleildumatin.jpg);
+    background-size: 280px;
     background-position: 50% 50%;
 }
 
@@ -486,7 +477,7 @@ input[type=text]
     width: 182px;
     border-radius: 15px 0px 0px 15px;
     margin: 4px;
-    background-image: url(Photo/hotel.toutbleuetblanc.jpg);
+    background-image: url(Photook/heb/htoutbleuetbalc.jpg);
     background-size: 200px;
     background-position: 70% 50%;
 }
