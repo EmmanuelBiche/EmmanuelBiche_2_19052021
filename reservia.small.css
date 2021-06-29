@@ -30,13 +30,6 @@ nav
     justify-content: flex-end;
 }
 
-.inscription
-{
-    position: relative;
-    top: 8px; left: 30px;
-    padding-right: 0px;
-
-}
 .act
 {
     display: none;
@@ -127,35 +120,16 @@ header a
 {
     font-size: 1.1em;
 }
-.economique
+
+.filtrebis
 {
-    width: 50%;
-    margin-right: 5%;
-    margin-bottom: 15px;
+    width: 100%;
+    flex-wrap: wrap;  
+    font-size: 20px;
 }
-.familial
+.filtrebis a
 {
-    width: 40%;
-    margin-bottom: 15px;
-}
-.romantique
-{
-    width: 48%;
-    margin-bottom: 15px;
-}
-.animaux
-{
-    width: 65%;
-}
-.filtre a
-{
-    margin-left: 0;
-}
-.filtres2
-{
-    margin: auto;
-    padding: 0%;
-    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .info i
@@ -178,7 +152,10 @@ header a
     background-color: white;
     height: 1820px;
 }
+.hebergements h1
+{
 
+}
 .populaires
 {
     width: 100%;
@@ -191,6 +168,11 @@ header a
 {
     width: 90%;
     margin: auto;
+}
+
+.hebergements h1
+{
+    margin-left: 18px;
 }
 
 .hebergements2
@@ -369,6 +351,7 @@ footer
     width: 100%;
     flex-direction: column;
     height: auto;
+    padding: 0%;
 }
 
 .footer1

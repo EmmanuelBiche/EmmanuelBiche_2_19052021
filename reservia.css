@@ -67,19 +67,17 @@ h2
 
 nav
 {
-    width: 25%;
     display: flex;
     justify-content: space-around;
-    margin-right: 50px;
     margin-top: 0px;
     padding-top: 20px;
+    
 }
 
 .inscription 
 {
     color: #0065FC;
     font-weight: bold;
-
 }
 
 li
@@ -176,7 +174,6 @@ input[type=text]
     margin: 40px 0px 0px 0px;
     font-weight: bolder;
     font-size: 20px;
-    width: 70%;
 }
 
 .filtrebis
@@ -225,16 +222,27 @@ input[type=text]
     vertical-align: middle;
     padding-top: 15px;
 }
-
+.economique
+{
+    min-width: 140px;
+}
 .animaux
 {
     min-width: 280px;
 }
-.logofamilial 
+.familial
 {
-    width: 10%;
+    min-width: 120px;
+}
+.romantique
+{
+    min-width: 140px;
 }
 
+i.fas.fa-child.logofamilial
+{
+    padding: 20px 22px;
+}
 .map-marker
 {
     height: 54.8px;
@@ -272,13 +280,14 @@ input[type=text]
 {
     display: flex;
     margin-bottom: 50px;
+   
 }
 
 .hebergements
 {
     background-color: #f2f2f2;
     border-radius: 15px;
-    width: 65%;
+    width: 70%;
     padding-top: 35px;
     padding-left: 20px;
     /* height: 720px; */
@@ -304,7 +313,6 @@ input[type=text]
 {
     background-color: #f2f2f2;
     border-radius: 15px;
-    /* height: 720px; */
     width: 30%;
     margin-left: 1.5% ;
     padding-top: 35px;
