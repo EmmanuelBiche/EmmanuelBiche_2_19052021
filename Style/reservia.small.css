@@ -1,0 +1,359 @@
+html
+{
+    width: 100%;
+    font-size: 1.2em;
+}
+
+body
+{
+    margin: 0%;
+}
+.corps
+{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+header img
+{
+    width:150%;
+}
+
+header
+{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+nav
+{
+    justify-content: flex-end;
+}
+
+.act
+{
+    display: none;
+}
+.heb
+{
+    display: none;
+}
+
+header a
+{
+    align-self: flex-end;
+}
+
+.actheb
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.act1:hover
+{
+    color:#0065FC;
+    font-weight: bold;
+    border-color: #0065FC;
+}
+
+.act1 
+{
+    display: initial;
+    width: 50%;
+    text-align: center;
+    border-bottom: solid 2px #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.heb1
+{
+    display: initial;
+    width: 50%;
+    text-align: center;
+    border-bottom: solid 2px #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.heb1:hover
+{
+    color:#0065FC;
+    font-weight: bold;
+    border-color: #0065FC;
+}
+
+.recherche
+{
+    margin: 5%;
+}
+
+.rechercher span
+{
+    display: none;
+}
+
+.rechercher i
+{
+    display: block;
+}
+
+.map-marker
+{
+    min-width: 50px;
+}
+.filtre
+{
+    flex-direction: column;
+    width: 100%;
+    margin: 5%;
+}
+
+.filtrebis
+{
+    width: 95%;
+    flex-wrap: wrap;  
+    font-size: 20px;
+}
+
+.filtres1 p
+{
+    font-size: 1.1em;
+}
+
+.filtrebis
+{
+    width: 100%;
+    flex-wrap: wrap;  
+    font-size: 20px;
+}
+.filtrebis a
+{
+    margin-bottom: 10px;
+}
+
+.info i
+{
+    padding: 8px 10px 16px 13px;
+    margin-right: 5%;
+    position: relative;
+    top: 5px;
+}
+.main 
+{
+    flex-direction: column-reverse;
+    margin-bottom: 0%;
+   
+}
+
+.hebergements
+{
+    width: 100%;
+    background-color: white;
+    height: 1820px;
+}
+
+.populaires
+{
+    width: 100%;
+    margin: 0%;
+    border-radius: 0%;
+    padding-bottom: 25px;
+}
+
+.populaires1
+{
+    width: 90%;
+    margin: auto;
+}
+
+.hebergements h1
+{
+    margin-left: 18px;
+}
+
+.hebergements2
+
+{
+    margin: 0px;
+    width: 100%;
+}
+
+.hebergements2 a
+{
+    width: 90%;
+    height: 250px;
+    margin-left: 0%;
+}
+
+.hebergements3
+{
+    flex-direction: column;
+}
+.aubergedelacannebiere
+{
+    width: 98%;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 4px;
+    background-image: url(../Photook/heb/aubdelacan.jpg);
+    background-size: 100%;
+    background-position: 70% 5%;
+}
+
+.hotelduport
+{
+    width: 98%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 4px;
+    background-image: url(../Photook/heb/hduport.jpg);
+    background-size: 100%;
+    background-position: 70% 65%;
+}
+
+.hotellesmouettes
+{
+    width: 98%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 4px;
+    background-image: url(../Photook/heb/hlesmouettes.jpg);
+    background-size: 100%;
+    background-position: 70% 80%;
+}
+
+.hoteldelamer
+{
+    width: 98%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 4px;
+    background-image: url(../Photook/heb/hdelamer.jpg);
+    background-size: 100%;
+    background-position: 45% 60%;
+}
+
+.aubergelepanier
+{
+    width: 98%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 4px;
+    background-image: url(../Photook/heb/aublepanier.jpg);
+    background-size: 100%;
+    background-position: 70% 50%;
+}
+
+.hotelchezamina
+{
+    width: 98%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 4px;
+    background-image: url(../Photook/heb/hchezamina.jpg);
+    background-size: 100%;
+    background-position: 45% 60%;
+}
+.activités
+{
+  margin: 5%;
+  margin-top: 0%;
+}
+
+.activités2
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.activités2 a
+{
+    width: 100%;
+}
+
+.activités a
+{
+    width: 100%;
+    margin-bottom: 40px ;
+}
+
+.activités4
+{
+    width: 100%;
+}
+.vieuxport
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(../Photook/act/vieuxport.jpg);
+    background-size: 100%;
+    background-position: 50% 35%;
+}
+
+.fortdepomegues
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(../Photook/act/fortdepom.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+
+.ilesdufrioul
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(../Photook/act/ilesduf.jpg);
+    background-size: 100%;
+    background-position: 70% 30%;
+}
+
+.pndescalanques
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(../Photook/act/pndescal.jpg);
+    background-size: 100%;
+    background-position: 50% 40%;
+}
+
+.nddelagarde
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(../Photook/act/nddelagarde.jpg);
+    background-size: 100%;
+    background-position: 90% 25%;
+}
+
+.parclongchamp
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(../Photook/act/parclongc.jpg);
+    background-size: 100%;
+    background-position: 70% 35%;
+}
+
+footer
+{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 0%;
+}
+
+.footer1
+{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
