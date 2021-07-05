@@ -1,3 +1,4 @@
+
 h2
 {
     font-size: 1em;
@@ -34,38 +35,50 @@ h2
     margin: 0mm;
     margin-bottom: 20px;
 }
+
+.hotelchezamina img
+{
+    object-position: 10% 60% ;
+}
+.populaires h3
+{
+    margin: 0px 0px 0px 15px;
+}
 .populaires2
 {
-    height: 270px;
+    height: 290px;
     flex-direction: column;
 }
 .populaires3 
 {
     width: 95%;
 }
-.hotellesoleildumatin
+.hotellesoleildumatin img
 {
-    height: 450px;
-    width: 98%;  
     border-radius: 15px 15px 0px 0px;
-    background-size: 350px;
+    width: 196%;
+    height: 175px;
+    object-fit: cover;
+    object-position: 80% 50% ;
 }
 
-.aucoeurdeleau
+.aucoeurdeleau img
 {
-    height: 450px;
-    width: 98%;  
     border-radius: 15px 15px 0px 0px;
-    background-size: 350px;
+    width: 196%;
+    height: 175px;
+    object-fit: cover;
+    object-position: 80% 50% ;
+}
+.toutbleuetblanc img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 196%;
+    height: 175px;
+    object-fit: cover;
+    object-position: 80% 50% ;
 }
 
-.toutbleuetblanc
-{
-    height: 450px;
-    width: 98%;  
-    border-radius: 15px 15px 0px 0px;
-    background-size: 350px;
-}
 
 .afficher
 {
