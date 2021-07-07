@@ -24,7 +24,7 @@ header
 {
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 header a
@@ -51,12 +51,19 @@ p
 }
 .act
 {
-    display: none;
+    position: absolute;
+    top: 130px; right: 0%;
+    width: 50%;
+    padding: 0%;
 }
 .heb
 {
-    display: none;
+    position: absolute;
+    top: 130px; left: 0%;
+    width: 50%;
+    padding: 0%;
 }
+
 
 header a
 {
@@ -70,14 +77,14 @@ header a
     margin-bottom: 50px;
 }
 
-.act1:hover
+.act:hover
 {
     color:#0065FC;
     font-weight: bold;
     border-color: #0065FC;
 }
 
-.act1 
+.act 
 {
     display: initial;
     width: 50%;
@@ -86,7 +93,7 @@ header a
     padding-bottom: 20px;
 }
 
-.heb1
+.heb
 {
     display: initial;
     width: 50%;
@@ -95,13 +102,18 @@ header a
     padding-bottom: 20px;
 }
 
-.heb1:hover
+.heb:hover
 {
     color:#0065FC;
     font-weight: bold;
     border-color: #0065FC;
 }
-
+nav a:hover
+{
+    color:#0065FC;
+    font-weight: bold;
+    border-top: none
+}
 .recherche
 {
     margin: 5%;
